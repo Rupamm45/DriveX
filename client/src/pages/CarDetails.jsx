@@ -4,6 +4,7 @@ import { assets } from '../assets/assets';
 import Loader from '../components/Loader';
 import { useAppContext } from '../context/AppContext';
 import toast from 'react-hot-toast'
+import { motion } from 'motion/react'
 
 const CarDetails = () => {
   const{id}=useParams()
